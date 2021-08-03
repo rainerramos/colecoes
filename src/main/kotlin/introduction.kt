@@ -14,6 +14,6 @@ fun main(args: Array<String>) {
     val h1 = hashMapOf<String, String>(Pair("key", "value"), Pair("França", "Paris"))
     println(h1["França"]) // a partir de uma chave eu coonsigo ter um valor e tb hashMapOf já é mutável
 
-    val n1 = mapOf(Pair("key", "value"), Pair("França", "Paris"))
-    val n2 = mutableMapOf(Pair("key", "value"), Pair("França", "Paris"))
+    val n1 = mapOf(Pair("key", "value"), Pair("França", "Paris")) //aqui eu não tenho o "add"
+    val n2 = mutableMapOf(Pair("key", "value"), Pair("França", "Paris")) // aqui eu tneho o entries.add
 }
